@@ -18,9 +18,9 @@ public class WorldGenerator implements IWorldGenerator {
 
     public WorldGenerator(){
         ores = new ArrayList<WorldGenOre>();
-        ores.add(new WorldGenOre(SpectralProjection.blockOre.getDefaultState().withProperty(BlockOre.VARIANT, BlockOre.EnumVariant.SOULFFORIUM), 0, 16, 3, 2));
+        ores.add(new WorldGenOre(SpectralProjection.blockOre.getDefaultState().withProperty(BlockOre.VARIANT, BlockOre.EnumVariant.SOULFFORIUM), 0, 16, 6, 8));
         ores.add(new WorldGenOre(SpectralProjection.blockOre.getDefaultState().withProperty(BlockOre.VARIANT, BlockOre.EnumVariant.SOULATTITE), 2, 29, 6, 8));
-        ores.add(new WorldGenOre(SpectralProjection.blockOre.getDefaultState().withProperty(BlockOre.VARIANT, BlockOre.EnumVariant.METRUSITE), 16, 32, 6, 15));
+        ores.add(new WorldGenOre(SpectralProjection.blockOre.getDefaultState().withProperty(BlockOre.VARIANT, BlockOre.EnumVariant.METRUSITE), 16, 32, 4, 4));
         ores.add(new WorldGenOre(SpectralProjection.blockOre.getDefaultState().withProperty(BlockOre.VARIANT, BlockOre.EnumVariant.QUARTZ), 16, 32, 4, 15));
     }
 
